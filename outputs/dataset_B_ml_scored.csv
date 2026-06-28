@@ -1,0 +1,1226 @@
+timestamp,host,host_ip,user,source_ip,event_id,scenario_type,priority_label,mitre_technique,evaluation_prediction,raw_anomaly_score
+2026-05-10 08:11:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.11493901119541133
+2026-05-12 23:48:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.0501222256189332
+2026-05-05 21:15:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,Low,-0.005578369101923331
+2026-05-27 03:43:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.07233631282310127
+2026-05-02 11:05:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07952431438867225
+2026-05-25 05:14:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.059960661201332144
+2026-05-11 05:59:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03506566622130669
+2026-05-28 04:52:00,FINANCE-PC01,192.168.79.132,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.1059582985144889
+2026-05-23 12:03:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.07916313269702469
+2026-05-05 02:58:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16196098622735366
+2026-05-07 07:51:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.08311472468938197
+2026-05-16 20:58:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.05580884630377625
+2026-05-05 04:30:00,DC01,192.168.79.131,charlie.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03442562190079501
+2026-05-20 13:33:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03149833720050266
+2026-05-11 22:14:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.16165789074437997
+2026-05-01 18:59:00,DC01,192.168.79.131,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.1279382830450947
+2026-05-21 08:24:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.15064882069583707
+2026-05-24 14:48:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.09637692226983818
+2026-05-03 19:41:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,4688,remote_service_creation,High,T1543.003 - Windows Service,High,0.05556241312832544
+2026-05-28 02:13:00,FINANCE-PC01,192.168.79.132,Administrator,192.168.79.133,4672,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.04814572603385858
+2026-05-20 19:53:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.13069703495653873
+2026-05-17 12:29:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07923842211062881
+2026-05-12 15:33:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.07681279193646406
+2026-05-23 07:55:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07536313954662721
+2026-05-08 01:29:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.06677720071912141
+2026-05-30 06:18:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.069611803607591
+2026-05-26 20:50:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.058331244339347776
+2026-05-15 01:37:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.0367806436990028
+2026-05-15 14:08:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.10958712344266563
+2026-05-21 11:06:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16299513892438494
+2026-05-28 13:35:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.10053091832820293
+2026-05-28 14:03:00,DC01,192.168.79.131,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.13431279726068795
+2026-05-22 11:32:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.15785468828635246
+2026-05-03 11:32:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.027809324447522488
+2026-05-20 14:48:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.17012949180808634
+2026-05-24 04:21:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16027511881367895
+2026-05-27 19:02:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.09634989275137096
+2026-05-12 15:33:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.13881934626231596
+2026-05-15 04:08:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.14362853884530563
+2026-05-04 00:13:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,domain_enumeration,High,T1087 - Account Discovery,Low,-0.01694025982445413
+2026-05-18 09:12:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1648232377143019
+2026-05-23 05:04:00,DC01,192.168.79.131,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.11878908390072423
+2026-05-16 22:27:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.14989910648239657
+2026-05-10 17:12:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,Low,-0.028754752173625997
+2026-05-30 02:53:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.18212873174270294
+2026-05-19 19:22:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.14205941991817939
+2026-05-22 00:28:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.13196863687913918
+2026-05-27 00:55:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16623067780293233
+2026-05-13 17:55:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,domain_enumeration,High,T1087 - Account Discovery,High,0.018893850953838776
+2026-05-02 07:01:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.10471333237934433
+2026-05-29 10:34:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.1747260373589843
+2026-05-07 20:12:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16603434746091744
+2026-05-06 15:20:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07238402894997453
+2026-05-24 15:45:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.0892559083170511
+2026-05-26 12:40:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.020052860776528014
+2026-05-14 05:38:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.1648208698756845
+2026-05-21 01:52:00,DC01,192.168.79.131,dave.it,192.168.79.134,4672,sam_dump_activity,High,T1003 - OS Credential Dumping,High,0.060246475943443234
+2026-05-21 22:59:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.12978071508982686
+2026-05-07 00:39:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.11117404896953653
+2026-05-05 17:43:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.06777676209244965
+2026-05-18 02:51:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.07925815484433707
+2026-05-19 05:26:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.06842461597236582
+2026-05-24 13:30:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.09162977023098551
+2026-05-03 15:20:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.11335861740414688
+2026-05-24 04:09:00,DC01,192.168.79.131,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.09245557251135783
+2026-05-27 01:38:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.060020546314818346
+2026-05-11 07:03:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.05169840645368928
+2026-05-11 16:40:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.09941445907158841
+2026-05-06 01:56:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4688,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.05675375441272146
+2026-05-03 14:30:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16675985957503253
+2026-05-18 13:29:00,DC01,192.168.79.131,charlie.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.0392427099833117
+2026-05-09 15:59:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.09587690642045577
+2026-05-14 08:35:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.16067448802409362
+2026-05-14 05:17:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.02142198874453527
+2026-05-22 23:28:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.04197832774972721
+2026-05-23 12:23:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.15577461471703102
+2026-05-14 11:13:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.16412437778103917
+2026-05-29 05:26:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.14251029135990334
+2026-05-25 03:12:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.08976025454468806
+2026-05-26 15:41:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07615793104133584
+2026-05-28 02:00:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.133,4672,benign_remote_admin,Low,Benign Administrative Activity,High,0.008286898809622856
+2026-05-12 04:50:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.0450679266555597
+2026-05-15 13:44:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,sam_dump_activity,High,T1003 - OS Credential Dumping,Low,-0.0161030779547362
+2026-05-22 10:11:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.13463176009010513
+2026-05-02 18:49:00,FINANCE-PC01,192.168.79.132,Administrator,192.168.79.133,4672,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.04093715773459816
+2026-05-10 11:08:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.07722135381486261
+2026-05-18 02:44:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.133576109653055
+2026-05-13 11:31:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.1335386838215109
+2026-05-17 21:17:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,Low,-0.009724275219062273
+2026-05-23 14:42:00,DC01,192.168.79.131,DC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.11267103998316774
+2026-05-09 07:49:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.10154943792184556
+2026-05-09 20:25:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,domain_enumeration,High,T1087 - Account Discovery,High,0.013983724955559218
+2026-05-22 17:28:00,DC01,192.168.79.131,DC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.12520508636474853
+2026-05-08 06:10:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06445972773590547
+2026-05-21 20:28:00,DC01,192.168.79.131,dave.it,192.168.79.133,4672,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.04174463388186933
+2026-05-07 05:06:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.1528414610794292
+2026-05-13 22:21:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.16165789074437997
+2026-05-09 00:44:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.08567212002865587
+2026-05-23 05:13:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.07497582522057533
+2026-05-05 16:47:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.005315460294745056
+2026-05-23 11:23:00,DC01,192.168.79.131,Administrator,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03187301000101184
+2026-05-16 13:40:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03892606286917144
+2026-05-03 09:07:00,DC01,192.168.79.131,charlie.it,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03442562190079501
+2026-05-25 17:52:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.027809324447522488
+2026-05-23 00:17:00,DC01,192.168.79.131,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.09687091959039618
+2026-05-05 03:25:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.039408470878850244
+2026-05-10 12:52:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.17280004996750054
+2026-05-14 07:12:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,5140,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.015514092189204853
+2026-05-30 19:45:00,DC01,192.168.79.131,charlie.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03149833720050266
+2026-05-16 00:53:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.13576995344093867
+2026-05-24 21:01:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.07569693220227414
+2026-05-10 01:37:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.09976045459082483
+2026-05-09 15:48:00,DC01,192.168.79.131,dave.it,192.168.79.133,4672,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.04436793747898393
+2026-05-18 07:46:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.13668076070206137
+2026-05-19 09:54:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.15891623275670835
+2026-05-19 02:26:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.13839457300749697
+2026-05-24 08:02:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.12376095549016286
+2026-05-26 22:59:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.12694062277620155
+2026-05-26 12:23:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.17042578127712743
+2026-05-18 01:29:00,DC01,192.168.79.131,ANONYMOUS LOGON,192.168.79.134,4624,sam_dump_activity,High,T1003 - OS Credential Dumping,High,0.002950050300801199
+2026-05-20 16:32:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,Low,-0.022401196641794074
+2026-05-19 01:38:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.16573327454057563
+2026-05-15 00:50:00,DC01,192.168.79.131,charlie.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.027215964413711102
+2026-05-11 00:35:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.02352389069920824
+2026-05-11 03:33:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07246739637487154
+2026-05-12 15:33:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.008728177673986037
+2026-05-19 12:46:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.15577461471703102
+2026-05-27 01:18:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.11979528326093614
+2026-05-08 06:12:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.09475960836261876
+2026-05-16 11:11:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.08319518701758966
+2026-05-03 23:41:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.055381438654194204
+2026-05-04 08:57:00,DC01,192.168.79.131,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.14711288204574663
+2026-05-04 15:30:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.16444557734817783
+2026-05-31 05:26:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.10958760027587289
+2026-05-05 20:36:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.06308912092147756
+2026-05-30 22:39:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.08811611295208699
+2026-05-29 17:59:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.04922226880597891
+2026-05-10 21:58:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.050439075628006536
+2026-05-08 08:29:00,DC01,192.168.79.131,dave.it,192.168.79.134,4688,sam_dump_activity,High,T1003 - OS Credential Dumping,High,0.06131456128945345
+2026-05-23 21:36:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.1130416119864045
+2026-05-17 01:51:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,Low,-0.019718637851606657
+2026-05-16 23:04:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.06997729299731303
+2026-05-07 02:00:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.13130984109093807
+2026-05-12 02:50:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.14286792440182972
+2026-05-28 08:13:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1551833260384518
+2026-05-30 09:21:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.1349834831381282
+2026-05-18 16:29:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.13163123057106524
+2026-05-10 02:43:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03309404598118382
+2026-05-19 08:35:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.07862780749142217
+2026-05-30 06:04:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16451646643408913
+2026-05-29 20:02:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.1657718844029143
+2026-05-28 05:44:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.06842461597236582
+2026-05-14 08:50:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.03174064618467509
+2026-05-11 21:42:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.060141356596364326
+2026-05-22 16:18:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.15201901105967353
+2026-05-27 11:29:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.17021901263822387
+2026-05-03 22:02:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.17372546061551353
+2026-05-17 23:10:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4688,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.0104216590663736
+2026-05-17 16:54:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16369097143322203
+2026-05-21 18:13:00,DC01,192.168.79.131,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.14050398044530904
+2026-05-18 01:29:00,DC01,192.168.79.131,ANONYMOUS LOGON,192.168.79.134,4688,sam_dump_activity,High,T1003 - OS Credential Dumping,High,0.07136434426436866
+2026-05-26 15:11:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06207735600576825
+2026-05-15 21:27:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.0689834813054625
+2026-05-11 09:43:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.07800196683700711
+2026-05-18 17:02:00,DC01,192.168.79.131,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.10113055485280542
+2026-05-18 11:03:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.16299513892438494
+2026-05-23 15:40:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.14110895635111925
+2026-05-01 08:53:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.039408470878850244
+2026-05-25 01:43:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.07307720486709313
+2026-05-14 07:07:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.15936434170374147
+2026-05-20 21:16:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4672,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.039521687912897896
+2026-05-11 13:57:00,DC01,192.168.79.131,charlie.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.02951820912306291
+2026-05-14 16:07:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.06624985765990932
+2026-05-12 06:38:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06381848861603923
+2026-05-25 02:30:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.15929635975930995
+2026-05-27 06:01:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.1075333326635185
+2026-05-29 17:15:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.15919523094073773
+2026-05-29 10:39:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4672,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.018334439336065156
+2026-05-15 20:28:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.08178828858283882
+2026-05-13 17:02:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07919449987591776
+2026-05-21 01:32:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.13485123554463047
+2026-05-29 04:14:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.15964289164447626
+2026-05-23 12:30:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06728794857289
+2026-05-12 09:57:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,5140,benign_admin_maintenance,Low,Benign Administrative Maintenance,High,0.009727881842567898
+2026-05-13 22:35:00,DC01,192.168.79.131,dave.it,192.168.79.133,5140,benign_admin_maintenance,Low,Benign Administrative Maintenance,High,0.0066698702717001845
+2026-05-23 22:43:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.05011804788001284
+2026-05-15 05:38:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.07307238939244343
+2026-05-07 01:45:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03902182544519994
+2026-05-30 20:58:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.11551691167145023
+2026-05-05 14:55:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.0881205599779914
+2026-05-28 10:25:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,domain_enumeration,High,T1087 - Account Discovery,High,0.011072706971161583
+2026-05-14 10:38:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.08136039979948062
+2026-05-16 21:30:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,Low,-0.020316937357927722
+2026-05-20 05:37:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.1576718353682256
+2026-05-23 00:25:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.07018868319154792
+2026-05-31 04:54:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.18533805082434462
+2026-05-14 14:18:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.14326572206284827
+2026-05-27 23:44:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.12984838550557487
+2026-05-28 02:25:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.12147079270056238
+2026-05-19 12:54:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,7045,remote_service_creation,High,T1543.003 - Windows Service,High,0.06830728630358063
+2026-05-18 22:21:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.13785034430702753
+2026-05-31 05:50:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.17547314365670585
+2026-05-02 13:06:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.1268993220235312
+2026-05-12 15:33:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.08476378494550185
+2026-05-19 12:54:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,7045,remote_service_creation,High,T1543.003 - Windows Service,High,0.0636948950857611
+2026-05-11 11:46:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.16497807679592424
+2026-05-21 07:03:00,DC01,192.168.79.131,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.14613343648398702
+2026-05-23 11:10:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.0876678080636234
+2026-05-14 08:14:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.11112811300089864
+2026-05-27 13:19:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.15391676502003399
+2026-05-26 18:50:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.0526742527732893
+2026-05-25 11:42:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.10166793562442511
+2026-05-13 19:12:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.13492405318435385
+2026-05-07 00:20:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.0492753556798301
+2026-05-10 02:43:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03506566622130669
+2026-05-14 23:48:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1420900950081262
+2026-05-21 08:19:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,4688,remote_service_creation,High,T1543.003 - Windows Service,High,0.06585459109422198
+2026-05-06 04:29:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07909238157318998
+2026-05-07 04:32:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.12044045028307726
+2026-05-26 15:00:00,DC01,192.168.79.131,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.14213965132489392
+2026-05-01 11:50:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,High,0.001943640703782168
+2026-05-09 17:33:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.05826433385280638
+2026-05-20 00:53:00,DC01,192.168.79.131,IT-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.0809331594140974
+2026-05-28 22:49:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.11863204772719727
+2026-05-16 13:40:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.04743465499612465
+2026-05-03 08:22:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.07201280237694285
+2026-05-13 02:17:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.12595773507724295
+2026-05-08 17:28:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.14838115881724862
+2026-05-30 22:29:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.054784857378110785
+2026-05-03 23:33:00,DC01,192.168.79.131,IT-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.07620713436577975
+2026-05-10 03:55:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.06695592690366492
+2026-05-13 15:56:00,DC01,192.168.79.131,Administrator,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.04965558484337218
+2026-05-22 01:37:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.11279325505414539
+2026-05-19 23:32:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.1154011411537843
+2026-05-21 15:02:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.12652571249259065
+2026-05-04 15:19:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07396179238765799
+2026-05-07 21:46:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.13928441872169622
+2026-05-13 15:56:00,DC01,192.168.79.131,Administrator,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.04012769274304384
+2026-05-29 05:18:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.13731538149770073
+2026-05-17 19:35:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06124787356947736
+2026-05-09 02:51:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.05713760297816495
+2026-05-16 05:10:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.030954648130698592
+2026-05-05 02:14:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4688,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.04786150742795092
+2026-05-15 13:44:00,DC01,192.168.79.131,dave.it,192.168.79.134,4672,sam_dump_activity,High,T1003 - OS Credential Dumping,High,0.059696423425371514
+2026-05-06 14:39:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.028798804448702198
+2026-05-13 11:21:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.18857949810183794
+2026-05-20 09:01:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.1385843025023259
+2026-05-10 17:15:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.0968024099782897
+2026-05-30 16:37:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.15677990866406033
+2026-05-03 12:33:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.07483545597830765
+2026-05-27 03:37:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,7045,remote_service_creation,High,T1543.003 - Windows Service,High,0.06836148191055158
+2026-05-26 01:54:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.041408009529070644
+2026-05-15 00:50:00,DC01,192.168.79.131,charlie.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.04965558484337218
+2026-05-14 15:47:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.15519192481775967
+2026-05-30 05:32:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03314965595797337
+2026-05-13 10:30:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.16744103510760278
+2026-05-16 23:52:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.08201011514146972
+2026-05-15 15:26:00,DC01,192.168.79.131,DC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.12566845923161735
+2026-05-10 05:00:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.11612396386297358
+2026-05-18 06:36:00,DC01,192.168.79.131,dave.it,192.168.79.134,4672,domain_enumeration,High,T1087 - Account Discovery,High,0.06331778568711288
+2026-05-14 02:02:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.11820681276054984
+2026-05-04 16:41:00,DC01,192.168.79.131,IT-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.09957362005365866
+2026-05-03 02:48:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.08129497300387323
+2026-05-25 21:08:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.12407475821672198
+2026-05-15 13:44:00,DC01,192.168.79.131,dave.it,192.168.79.134,4672,sam_dump_activity,High,T1003 - OS Credential Dumping,High,0.07279837697479963
+2026-05-10 01:04:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.15126637115053893
+2026-05-25 01:19:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.08978388780761604
+2026-05-03 23:20:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.08689328752082215
+2026-05-05 13:46:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.1206235575972191
+2026-05-06 13:43:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.062261734927445134
+2026-05-13 17:55:00,DC01,192.168.79.131,dave.it,192.168.79.134,4672,domain_enumeration,High,T1087 - Account Discovery,High,0.062079774830713585
+2026-05-08 15:24:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.14394383109911912
+2026-05-28 03:52:00,DC01,192.168.79.131,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.07853367697939584
+2026-05-12 23:37:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.11861901118179036
+2026-05-13 22:45:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.0441116516447253
+2026-05-12 01:18:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.10004183636785646
+2026-05-02 03:10:00,FINANCE-PC01,192.168.79.132,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.1554885731032915
+2026-05-14 23:21:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.060779785844752965
+2026-05-15 06:09:00,DC01,192.168.79.131,DC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.08037640098541299
+2026-05-10 17:25:00,DC01,192.168.79.131,charlie.it,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03187301000101184
+2026-05-23 14:42:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07236701950627233
+2026-05-13 17:34:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.08892777336254887
+2026-05-17 23:27:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.12847580494148758
+2026-05-06 16:47:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1389839891395343
+2026-05-07 07:48:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.048904952452344275
+2026-05-22 14:49:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06286757916226116
+2026-05-27 07:29:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.133,5140,benign_admin_maintenance,Low,Benign Administrative Maintenance,High,0.0059817961139040365
+2026-05-22 04:02:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,7045,remote_service_creation,High,T1543.003 - Windows Service,High,0.05701184442908824
+2026-05-18 20:34:00,DC01,192.168.79.131,DC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.06940096070935275
+2026-05-11 05:59:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03998473808390035
+2026-05-14 05:17:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.04631279820511702
+2026-05-08 05:26:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.05356704181605876
+2026-05-30 11:43:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.1290874597553125
+2026-05-06 21:18:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.09890690788374468
+2026-05-20 00:54:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,7045,remote_service_creation,High,T1543.003 - Windows Service,High,0.06786577519485015
+2026-05-27 01:12:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.049226624194269486
+2026-05-12 21:59:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.05976483770176466
+2026-05-01 08:53:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03249340703029224
+2026-05-05 03:15:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.0864263141920254
+2026-05-02 00:18:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.10322862654643195
+2026-05-12 23:29:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.13403249989129867
+2026-05-16 21:41:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.13468767741138898
+2026-05-21 02:09:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.10175103469504299
+2026-05-21 05:45:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.17806613649688713
+2026-05-12 22:43:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,Low,-0.05115915046262054
+2026-05-05 01:04:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.08028435385610266
+2026-05-15 23:04:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.13555315078844088
+2026-05-04 18:59:00,DC01,192.168.79.131,charlie.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.027215964413711102
+2026-05-26 07:24:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.07451162940706835
+2026-05-26 07:24:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.026766222703439424
+2026-05-06 22:36:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07013396729219934
+2026-05-13 05:19:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,domain_enumeration,High,T1087 - Account Discovery,Low,-0.008545474580542556
+2026-05-16 05:38:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.133,5140,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.0236676877976687
+2026-05-21 16:46:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,5140,benign_remote_admin,Low,Benign Administrative Activity,High,0.004007058024218857
+2026-05-19 19:05:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.08814672952250036
+2026-05-21 16:04:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.07767576055234171
+2026-05-25 17:52:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.025196357118042467
+2026-05-13 22:29:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,domain_enumeration,High,T1087 - Account Discovery,Low,-0.008545474580542556
+2026-05-27 22:19:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4672,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.02635989912983039
+2026-05-18 08:02:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.10116112138497302
+2026-05-15 15:44:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.16444557734817783
+2026-05-07 19:24:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4688,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.016809799351215515
+2026-05-13 22:13:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1284164966341343
+2026-05-11 12:10:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.11574450704614608
+2026-05-09 12:11:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.15677618053648823
+2026-05-05 16:49:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.14708635469719372
+2026-05-29 01:22:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.07305233837155867
+2026-05-22 19:46:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.04303594600826288
+2026-05-05 01:01:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07656074691429726
+2026-05-18 12:10:00,FINANCE-PC01,192.168.79.132,Administrator,192.168.79.133,5140,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.03268337772057439
+2026-05-30 10:23:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16929387969706206
+2026-05-24 18:06:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,domain_enumeration,High,T1087 - Account Discovery,Low,-0.009022035755470115
+2026-05-01 08:53:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.041853767409473774
+2026-05-26 07:24:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1070317149225466
+2026-05-11 13:57:00,DC01,192.168.79.131,charlie.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.020992347557549085
+2026-05-16 13:40:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.04631279820511702
+2026-05-21 18:50:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16992143750317268
+2026-05-27 05:21:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.13738647015365285
+2026-05-25 02:09:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.12121276025225608
+2026-05-03 21:40:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03139103195464987
+2026-05-07 17:04:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06726997891357811
+2026-05-08 23:46:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.13968683387066022
+2026-05-01 21:04:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.11737349600943986
+2026-05-06 20:37:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.052801357158636986
+2026-05-29 17:41:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.09027109731970506
+2026-05-06 18:22:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.08430807091301729
+2026-05-16 18:13:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06718109550962759
+2026-05-20 00:54:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,7045,remote_service_creation,High,T1543.003 - Windows Service,High,0.04990803404899735
+2026-05-07 15:15:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.05874330301439623
+2026-05-21 01:37:00,DC01,192.168.79.131,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.07109545174162568
+2026-05-13 20:28:00,FINANCE-PC01,192.168.79.132,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.12246333071556692
+2026-05-27 08:46:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.14124741408112018
+2026-05-02 10:53:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,7045,remote_service_creation,High,T1543.003 - Windows Service,High,0.05792239100722296
+2026-05-25 22:22:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.06245039029325217
+2026-05-25 22:57:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.1515770067824292
+2026-05-22 08:15:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.16966706273152288
+2026-05-24 09:18:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06852830601554172
+2026-05-16 13:40:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03830451490464282
+2026-05-11 16:35:00,DC01,192.168.79.131,dave.it,192.168.79.134,4688,domain_enumeration,High,T1087 - Account Discovery,High,0.06452501657690546
+2026-05-11 11:14:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1483837716357569
+2026-05-29 22:50:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.10149876134749669
+2026-05-03 22:43:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.06913792285444564
+2026-05-30 09:52:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07780863294624396
+2026-05-13 12:32:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.1767172432462097
+2026-05-05 18:09:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.1456341433227044
+2026-05-16 05:10:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03439709309933703
+2026-05-27 16:48:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.025196357118042467
+2026-05-11 17:00:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.11456416791699131
+2026-05-21 02:38:00,DC01,192.168.79.131,Administrator,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.0314857950610119
+2026-05-09 22:35:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.052831326073865426
+2026-05-07 23:14:00,DC01,192.168.79.131,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.07837972359901801
+2026-05-01 12:51:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,High,0.003927866684825032
+2026-05-20 20:59:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.08916763620825718
+2026-05-29 05:21:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.08216610039912198
+2026-05-07 00:02:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03748936814722548
+2026-05-24 08:05:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.12451901922791037
+2026-05-21 00:44:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.13695212113902144
+2026-05-13 17:55:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,domain_enumeration,High,T1087 - Account Discovery,High,0.002950050300801199
+2026-05-12 14:56:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.08274684622050821
+2026-05-13 15:56:00,DC01,192.168.79.131,Administrator,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.04965558484337218
+2026-05-22 19:46:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.041581225954202994
+2026-05-17 17:13:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.15906474374346302
+2026-05-13 22:57:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.13244279509700252
+2026-05-20 22:47:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.08571153658866337
+2026-05-23 13:10:00,DC01,192.168.79.131,DC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.08474708740893921
+2026-05-20 21:38:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.08710683853053203
+2026-05-18 22:56:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1523369079369703
+2026-05-27 17:07:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1502438483762325
+2026-05-25 19:51:00,DC01,192.168.79.131,dave.it,192.168.79.133,4688,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.02559238413659204
+2026-05-30 23:21:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.10295837663321217
+2026-05-27 01:33:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.12268647743473748
+2026-05-21 02:38:00,DC01,192.168.79.131,Administrator,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.04743465499612465
+2026-05-12 23:17:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.1131485486895768
+2026-05-14 02:00:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.16309042833193232
+2026-05-08 07:24:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.07956584717043613
+2026-05-19 16:10:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07037821687132073
+2026-05-10 23:54:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.09147048206157649
+2026-05-14 08:50:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.026628622707691285
+2026-05-17 03:26:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,High,0.014803894752483004
+2026-05-20 13:33:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03670064079349322
+2026-05-23 19:53:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.07792301288490433
+2026-05-31 02:36:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.1696433040917943
+2026-05-09 18:09:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.14246671995062765
+2026-05-17 04:48:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.1374360060224133
+2026-05-19 08:56:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,Low,-0.03333746068907728
+2026-05-23 02:38:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,Low,-0.006663747450967095
+2026-05-18 23:00:00,DC01,192.168.79.131,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.13342857501791822
+2026-05-12 11:32:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.0895422127887412
+2026-05-31 06:31:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.11547131952913597
+2026-05-15 20:28:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.022881123286834115
+2026-05-10 19:12:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1526080079602934
+2026-05-07 22:10:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.12978071508982686
+2026-05-10 04:44:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.1370635820833569
+2026-05-19 02:57:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.16106629026683994
+2026-05-20 09:52:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.08971660564687367
+2026-05-13 05:45:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.047447460540904984
+2026-05-06 04:47:00,DC01,192.168.79.131,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.11903138274179448
+2026-05-06 22:04:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.13041408297519902
+2026-05-17 01:38:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.09584010813028976
+2026-05-29 21:35:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.03650504088852502
+2026-05-17 02:52:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1305136885070055
+2026-05-08 23:22:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.0784265195509315
+2026-05-30 04:24:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.12954331434045352
+2026-05-07 23:49:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,Low,-0.05515567232943164
+2026-05-28 04:52:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.04217868765441768
+2026-05-28 15:32:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06139271540506264
+2026-05-28 06:01:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.041581225954202994
+2026-05-04 12:57:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1646864869000605
+2026-05-17 13:55:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16976803018704606
+2026-05-15 01:10:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.022881123286834115
+2026-05-04 19:16:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.04047087894345136
+2026-05-21 05:46:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.08963809909363762
+2026-05-16 23:52:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.06901354006184124
+2026-05-22 04:02:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,4688,remote_service_creation,High,T1543.003 - Windows Service,High,0.06234056113682496
+2026-05-17 13:52:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4672,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.0232346870351543
+2026-05-18 20:29:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.12779432599975638
+2026-05-01 20:39:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1586031444478972
+2026-05-22 10:04:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.14466127554336233
+2026-05-19 06:08:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.05711591191291543
+2026-05-30 06:28:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03187301000101184
+2026-05-31 00:37:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.15759659275539706
+2026-05-17 18:55:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.12759020084282624
+2026-05-03 19:41:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,4688,remote_service_creation,High,T1543.003 - Windows Service,High,0.05235297108002601
+2026-05-30 19:45:00,DC01,192.168.79.131,charlie.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03670064079349322
+2026-05-08 09:04:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1490343481465526
+2026-05-28 03:21:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,High,0.03872519943041386
+2026-05-27 16:48:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03428435525118401
+2026-05-12 04:07:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.17003618377841678
+2026-05-01 08:53:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03439709309933703
+2026-05-16 22:37:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.15455211768018007
+2026-05-02 21:36:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1741143396689364
+2026-05-26 08:28:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.11873506339142531
+2026-05-17 04:33:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.08871748165866111
+2026-05-17 03:21:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,Low,-0.03851610780903514
+2026-05-30 04:19:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07909238157318998
+2026-05-08 23:24:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.03448905839512206
+2026-05-05 04:30:00,DC01,192.168.79.131,charlie.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03249340703029224
+2026-05-23 21:05:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.07754469813415288
+2026-05-02 06:19:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16382308130210982
+2026-05-18 13:29:00,DC01,192.168.79.131,charlie.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.04173508789109315
+2026-05-28 00:27:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.14434933260146598
+2026-05-22 12:30:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1019749852776708
+2026-05-09 01:52:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.13978616653541281
+2026-05-24 11:45:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,Low,-0.056202836924164945
+2026-05-21 01:46:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.12218560208320256
+2026-05-03 01:13:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.12406622192239247
+2026-05-05 14:16:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.10900631960007634
+2026-05-19 01:11:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.021603923483503706
+2026-05-15 20:28:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.08403278410871051
+2026-05-18 20:13:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06543346773282543
+2026-05-21 08:19:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,7045,remote_service_creation,High,T1543.003 - Windows Service,High,0.04632526048656582
+2026-05-13 00:03:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.12935459444027686
+2026-05-23 18:29:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.1549536180917555
+2026-05-24 07:04:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.10894977743450829
+2026-05-02 12:33:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.17158972470115247
+2026-05-18 02:14:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.12761942130722248
+2026-05-23 01:14:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4688,odd_hour_normal_login,Low,Benign After-Hours Activity,High,0.00883391702162184
+2026-05-30 07:17:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.1070317149225466
+2026-05-26 14:55:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.12201572296088364
+2026-05-07 01:50:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.10615377971617601
+2026-05-30 23:08:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.05611499618636284
+2026-05-17 02:14:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.0638548249946973
+2026-05-19 13:04:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16950783932725205
+2026-05-11 09:43:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.08525462307945086
+2026-05-18 10:53:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.14669732395034635
+2026-05-23 04:02:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.11583100370615756
+2026-05-14 20:38:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.13731429337551582
+2026-05-29 19:54:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,High,0.016426341634325325
+2026-05-04 15:45:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.14172740622783797
+2026-05-22 19:46:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.04173508789109315
+2026-05-11 05:59:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.031239892577863193
+2026-05-27 20:12:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1386355598075552
+2026-05-15 00:50:00,DC01,192.168.79.131,charlie.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.031239892577863193
+2026-05-05 04:06:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.0913706463699161
+2026-05-04 18:59:00,DC01,192.168.79.131,charlie.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.024662314232489768
+2026-05-02 07:12:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06384320840222413
+2026-05-31 00:31:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06279723627999267
+2026-05-13 11:24:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07125115535119753
+2026-05-05 06:30:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06445972773590547
+2026-05-04 09:08:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.1051503090171173
+2026-05-15 20:28:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.024854009360599005
+2026-05-06 08:55:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.15020167293589654
+2026-05-11 15:02:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.09643257669613403
+2026-05-30 14:08:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.15536913999785712
+2026-05-29 17:59:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.0392427099833117
+2026-05-22 07:41:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.0654700742155333
+2026-05-05 16:47:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.08131781819728656
+2026-05-04 00:13:00,DC01,192.168.79.131,dave.it,192.168.79.134,4672,domain_enumeration,High,T1087 - Account Discovery,High,0.059696423425371514
+2026-05-05 12:45:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1643205249680244
+2026-05-27 02:47:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,Low,-0.025670485385745567
+2026-05-08 13:35:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.17081984920183896
+2026-05-12 10:56:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.09054073516700378
+2026-05-30 01:54:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4688,odd_hour_normal_login,Low,Benign After-Hours Activity,High,0.004915193313078325
+2026-05-16 13:40:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.0392427099833117
+2026-05-19 06:34:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06245934329731884
+2026-05-16 23:49:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.14095158273402347
+2026-05-10 02:43:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.026293484389386834
+2026-05-08 02:44:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.11855547812170403
+2026-05-06 18:14:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.11673431959955527
+2026-05-07 16:41:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1332689570667075
+2026-05-27 15:11:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1681054850126898
+2026-05-12 06:43:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.15025359533756028
+2026-05-22 21:27:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.12011755995920087
+2026-05-16 14:09:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.0751574393339044
+2026-05-02 08:02:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.09730295833372915
+2026-05-19 12:54:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,7045,remote_service_creation,High,T1543.003 - Windows Service,High,0.05994453519837728
+2026-05-19 07:35:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.10034265466519288
+2026-05-01 18:53:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1563654345121135
+2026-05-19 18:02:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.13062198757614274
+2026-05-29 09:30:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.1405022178462284
+2026-05-17 13:11:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.08463188197198612
+2026-05-13 05:52:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.12433464931323224
+2026-05-12 21:32:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,Low,-0.05268346779820987
+2026-05-02 11:48:00,DC01,192.168.79.131,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.13452012674617303
+2026-05-20 16:15:00,DC01,192.168.79.131,dave.it,192.168.79.134,4688,sam_dump_activity,High,T1003 - OS Credential Dumping,High,0.05725872863143222
+2026-05-18 16:29:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.042749477561057736
+2026-05-19 13:17:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03379633860049436
+2026-05-12 01:40:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.09299417397615739
+2026-05-21 19:24:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.08046378326967962
+2026-05-02 05:41:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.15550440169385576
+2026-05-06 20:43:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.051966373902100904
+2026-05-01 19:46:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,Low,-0.0385347976529955
+2026-05-10 07:46:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.13511477224157098
+2026-05-24 05:10:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.12033783914208185
+2026-05-03 13:14:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.14659150054443126
+2026-05-22 01:11:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.15927664787585633
+2026-05-30 13:32:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.09279805212437653
+2026-05-15 03:19:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.12984781572546417
+2026-05-08 22:51:00,FINANCE-PC01,192.168.79.132,Administrator,192.168.79.133,5140,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.02023958850796681
+2026-05-16 10:27:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.10746727408158974
+2026-05-18 11:56:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.11161783841049355
+2026-05-26 20:59:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,7045,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.006819931547952129
+2026-05-14 11:01:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.0914075605019119
+2026-05-18 00:27:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.14745235105482174
+2026-05-04 13:06:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.11408251599410257
+2026-05-27 01:12:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03830451490464282
+2026-05-26 02:29:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4672,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.031591292089234946
+2026-05-15 14:28:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07236701950627233
+2026-05-17 05:16:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.17834762396065384
+2026-05-29 08:53:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07579536495925177
+2026-05-20 09:04:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.1385843025023259
+2026-05-10 23:53:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,Low,-0.034941252346175955
+2026-05-29 18:34:00,DC01,192.168.79.131,ANONYMOUS LOGON,192.168.79.134,4624,sam_dump_activity,High,T1003 - OS Credential Dumping,High,0.0017711734370661203
+2026-05-27 14:36:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,High,0.0024458697135810725
+2026-05-24 03:06:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,Low,-0.03134778472996225
+2026-05-24 23:53:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.14481120570089323
+2026-05-16 05:12:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.0853190361527596
+2026-05-23 23:25:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.0647147636579749
+2026-05-09 20:56:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1134428760809213
+2026-05-13 15:31:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.1600177861401012
+2026-05-20 15:02:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.1122455753378282
+2026-05-16 13:40:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03506566622130669
+2026-05-25 11:58:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1687113393579055
+2026-05-01 10:46:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.15523950255321362
+2026-05-02 03:23:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.15737693252720458
+2026-05-19 20:29:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.09512381871896247
+2026-05-29 01:56:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.04589591995276343
+2026-05-22 03:32:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.12373060309538653
+2026-05-11 08:30:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,Low,-0.030216382362691196
+2026-05-30 02:32:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.03804371594228717
+2026-05-05 01:28:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.07950845645681925
+2026-05-08 16:23:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.14153576949113944
+2026-05-02 00:26:00,DC01,192.168.79.131,DC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.08069730242799389
+2026-05-19 16:27:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.1624231569849076
+2026-05-10 19:17:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16410026684934576
+2026-05-01 16:58:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06076786447404847
+2026-05-17 00:27:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.08509444308270608
+2026-05-29 17:59:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03139103195464987
+2026-05-09 00:50:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.07003545362783048
+2026-05-18 10:29:00,DC01,192.168.79.131,dave.it,192.168.79.134,4688,domain_enumeration,High,T1087 - Account Discovery,High,0.06043545961859287
+2026-05-25 01:58:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4688,odd_hour_normal_login,Low,Benign After-Hours Activity,High,0.014373741846999244
+2026-05-03 11:32:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03309404598118382
+2026-05-26 01:37:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.05655037330226942
+2026-05-14 20:58:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.06975619291865842
+2026-05-06 17:12:00,DC01,192.168.79.131,Administrator,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.031005666773617935
+2026-05-06 16:41:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1527222105090758
+2026-05-10 06:39:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.1409756258694575
+2026-05-27 17:38:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.17223562509540385
+2026-05-17 15:55:00,DC01,192.168.79.131,charlie.it,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.031626451698094415
+2026-05-25 17:11:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.17718051861383266
+2026-05-05 10:15:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.0832532479376139
+2026-05-03 18:09:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.041853767409473774
+2026-05-28 05:20:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.13714123263738814
+2026-05-27 04:08:00,DC01,192.168.79.131,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.13711001826920405
+2026-05-30 10:38:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.04303594600826288
+2026-05-25 17:10:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,Low,-0.05374263762727749
+2026-05-17 11:21:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.14103984274915826
+2026-05-08 04:04:00,DC01,192.168.79.131,Administrator,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03506566622130669
+2026-05-19 10:56:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1485851099968633
+2026-05-11 05:23:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.07264086040595374
+2026-05-18 13:07:00,DC01,192.168.79.131,dave.it,192.168.79.133,4672,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.024428204437590417
+2026-05-11 11:14:00,DC01,192.168.79.131,dave.it,192.168.79.134,4688,sam_dump_activity,High,T1003 - OS Credential Dumping,High,0.06081600679996535
+2026-05-28 03:53:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.13037571175372809
+2026-05-18 17:35:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.11817007248933964
+2026-05-06 02:47:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.07669694835657359
+2026-05-25 00:27:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06191819179149982
+2026-05-30 01:41:00,DC01,192.168.79.131,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.11168903731382396
+2026-05-20 13:33:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03892606286917144
+2026-05-11 20:50:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,4688,remote_service_creation,High,T1543.003 - Windows Service,High,0.05699331132486696
+2026-05-25 15:51:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.13166619112848632
+2026-05-26 09:48:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,Low,-0.04880269866454934
+2026-05-28 03:25:00,DC01,192.168.79.131,IT-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.1304871751015777
+2026-05-11 06:05:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.05935884671468772
+2026-05-11 07:25:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,Low,-0.03183826550357505
+2026-05-26 10:19:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.07950845645681925
+2026-05-27 00:20:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.08787024258472798
+2026-05-20 23:38:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.09733018547646732
+2026-05-05 11:57:00,DC01,192.168.79.131,IT-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.09163138303909624
+2026-05-22 02:51:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.15977474938884356
+2026-05-10 17:25:00,DC01,192.168.79.131,charlie.it,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.04631279820511702
+2026-05-24 09:55:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.06371228809434804
+2026-05-24 03:59:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.17092211029841659
+2026-05-16 13:40:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.0392427099833117
+2026-05-14 08:50:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.08298056133179843
+2026-05-03 02:51:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.12304970425377881
+2026-05-11 18:04:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.12003184996688931
+2026-05-11 13:57:00,DC01,192.168.79.131,charlie.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.030954648130698592
+2026-05-15 21:59:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,Low,-0.04440006849005129
+2026-05-12 11:42:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.09579219686350615
+2026-05-03 11:32:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03139103195464987
+2026-05-07 11:13:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.12157853482545794
+2026-05-27 21:03:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,7045,remote_service_creation,High,T1543.003 - Windows Service,High,0.05873835090016122
+2026-05-05 10:52:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,Low,-0.05326830729918375
+2026-05-10 04:56:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.06611121810285503
+2026-05-22 05:17:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.09897982648667614
+2026-05-11 14:37:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,Low,-0.041514063661120426
+2026-05-09 20:56:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06700616314422925
+2026-05-30 19:45:00,DC01,192.168.79.131,charlie.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.029067662987950715
+2026-05-04 08:29:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.17333245464058972
+2026-05-28 22:37:00,DC01,192.168.79.131,dave.it,192.168.79.134,4672,sam_dump_activity,High,T1003 - OS Credential Dumping,High,0.05599961613563198
+2026-05-21 11:13:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06125732036220388
+2026-05-30 07:03:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.13207297241793708
+2026-05-05 12:06:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.11966352539951569
+2026-05-17 18:09:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1369071474576305
+2026-05-05 01:08:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.12488413417005234
+2026-05-13 15:56:00,DC01,192.168.79.131,Administrator,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.039408470878850244
+2026-05-02 16:39:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.1383992065784299
+2026-05-28 08:06:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.14439579614159104
+2026-05-20 09:27:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.05738771072068838
+2026-05-01 14:27:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,Low,-0.041387803998764294
+2026-05-12 11:18:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.09726034404918549
+2026-05-04 22:47:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.06852527700582378
+2026-05-10 09:57:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1312647860889135
+2026-05-20 07:42:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.0752491456231601
+2026-05-30 03:37:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.1362627446894592
+2026-05-09 20:43:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,sam_dump_activity,High,T1003 - OS Credential Dumping,High,0.0026855518913260212
+2026-05-24 15:57:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.14974533150490715
+2026-05-08 11:13:00,DC01,192.168.79.131,IT-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.06530400996865382
+2026-05-05 12:26:00,DC01,192.168.79.131,dave.it,192.168.79.133,7045,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.03054442219076492
+2026-05-17 05:56:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.11430014337123173
+2026-05-23 08:21:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.15220349603226785
+2026-05-10 10:17:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.12365863236238828
+2026-05-27 03:28:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16605544510727588
+2026-05-11 01:09:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.046104017428519994
+2026-05-29 19:50:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.060211443884648164
+2026-05-04 05:40:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.08189893324741127
+2026-05-15 11:54:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.08385887703188355
+2026-05-20 18:40:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.1355563713130965
+2026-05-01 08:08:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,Low,-0.044129460845855784
+2026-05-06 04:57:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.10906805376611362
+2026-05-21 17:38:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1388284022438394
+2026-05-21 01:52:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,sam_dump_activity,High,T1003 - OS Credential Dumping,Low,-0.01694025982445413
+2026-05-27 01:12:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03428435525118401
+2026-05-15 01:10:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.08623932554117963
+2026-05-18 08:25:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.10836520734106658
+2026-05-01 05:50:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.15918632436412583
+2026-05-20 00:54:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,7045,remote_service_creation,High,T1543.003 - Windows Service,High,0.06556512981615481
+2026-05-05 03:25:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.049226624194269486
+2026-05-22 06:43:00,DC01,192.168.79.131,IT-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.09894231084295835
+2026-05-22 23:28:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03748936814722548
+2026-05-16 05:10:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03670064079349322
+2026-05-29 07:41:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.05854577714558784
+2026-05-29 00:22:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.04302766977925143
+2026-05-10 00:02:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.12464671449570103
+2026-05-23 01:22:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.13576530878504472
+2026-05-10 00:15:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4672,benign_remote_admin,Low,Benign Administrative Activity,High,0.015651094338372307
+2026-05-16 04:10:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.00040649673741000036
+2026-05-07 12:59:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.16504736602191838
+2026-05-31 02:03:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.1680393303651544
+2026-05-19 14:26:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06383982883189443
+2026-05-05 10:41:00,FINANCE-PC01,192.168.79.132,Administrator,192.168.79.133,4672,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.023642598308851293
+2026-05-16 13:16:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06775132649749749
+2026-05-04 14:55:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.11798244643971467
+2026-05-12 17:46:00,DC01,192.168.79.131,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.11174514350864773
+2026-05-24 15:30:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.15362609503948538
+2026-05-10 15:20:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.153627622305055
+2026-05-25 03:17:00,DC01,192.168.79.131,charlie.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03139103195464987
+2026-05-10 15:21:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.04631279820511702
+2026-05-28 10:25:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,domain_enumeration,High,T1087 - Account Discovery,High,0.01543458430582012
+2026-05-19 18:29:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.16153642502081877
+2026-05-13 01:41:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.1304995977579152
+2026-05-08 05:51:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07428776966757589
+2026-05-10 09:01:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,7045,remote_service_creation,High,T1543.003 - Windows Service,High,0.04845212129151255
+2026-05-11 05:52:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.133,4672,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.022608402102803904
+2026-05-14 09:00:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16643891463217186
+2026-05-10 10:59:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.11659317544869019
+2026-05-16 08:56:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.1638598724741276
+2026-05-17 03:59:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.14942210419263563
+2026-05-05 08:08:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.04012769274304384
+2026-05-03 09:51:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.14860418398963327
+2026-05-15 03:58:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06965509710742768
+2026-05-01 08:53:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.04197832774972721
+2026-05-10 02:28:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.14696379872454546
+2026-05-10 02:43:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.027215964413711102
+2026-05-15 19:10:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.04754525894180528
+2026-05-29 08:08:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.14819546071297895
+2026-05-25 11:33:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.12925962104692612
+2026-05-13 05:19:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,domain_enumeration,High,T1087 - Account Discovery,High,0.005536073835716637
+2026-05-24 18:19:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06558486207334335
+2026-05-11 07:17:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.14079886063085612
+2026-05-11 11:57:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.05967406424857369
+2026-05-08 08:29:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,sam_dump_activity,High,T1003 - OS Credential Dumping,High,0.01775568598432775
+2026-05-29 11:45:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4688,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.03575637468308035
+2026-05-17 16:22:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.13355073596851058
+2026-05-17 22:01:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4688,odd_hour_normal_login,Low,Benign After-Hours Activity,High,0.009626949463587553
+2026-05-11 11:06:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.14053704378696802
+2026-05-12 11:28:00,DC01,192.168.79.131,ANONYMOUS LOGON,192.168.79.134,4688,sam_dump_activity,High,T1003 - OS Credential Dumping,High,0.0629283946338135
+2026-05-02 20:54:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.15248942613684846
+2026-05-23 05:57:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.17044053651885716
+2026-05-07 01:45:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.041581225954202994
+2026-05-07 02:28:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.17320104276042114
+2026-05-29 10:34:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.15051566796192328
+2026-05-27 23:04:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.060779785844752965
+2026-05-09 21:21:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.09824403849999719
+2026-05-30 22:34:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4688,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.012580605183504345
+2026-05-24 04:47:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.10409231098689153
+2026-05-13 08:17:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.07451162940706835
+2026-05-31 01:13:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.04888016767261383
+2026-05-20 02:25:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.11510642161369827
+2026-05-04 20:22:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4672,benign_admin_maintenance,Low,Benign Administrative Maintenance,High,0.0016101876120308
+2026-05-12 11:28:00,DC01,192.168.79.131,ANONYMOUS LOGON,192.168.79.134,4688,sam_dump_activity,High,T1003 - OS Credential Dumping,High,0.0654624939590096
+2026-05-19 11:43:00,DC01,192.168.79.131,IT-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.12154724427072294
+2026-05-22 08:17:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.15608771928550313
+2026-05-10 20:34:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.12929897560136672
+2026-05-18 15:45:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.14568117221462146
+2026-05-17 12:27:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4672,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.04851189351030927
+2026-05-07 14:37:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.0620318749547949
+2026-05-29 14:15:00,DC01,192.168.79.131,IT-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.0958866506556072
+2026-05-08 05:13:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.08573106016837662
+2026-05-01 08:53:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.04965558484337218
+2026-05-29 05:17:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03506566622130669
+2026-05-30 23:17:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06346515766258387
+2026-05-23 19:17:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.11501153769161881
+2026-05-31 03:43:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16851633794762882
+2026-05-08 00:12:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.13303655261731706
+2026-05-22 20:09:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,Low,-0.03378642876921922
+2026-05-20 06:03:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.13718533395646254
+2026-05-11 06:23:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.1473894716586952
+2026-05-06 14:52:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.17103993538810874
+2026-05-07 01:45:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03428435525118401
+2026-05-18 19:20:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.14651263374561346
+2026-05-11 16:56:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07006996558751133
+2026-05-19 15:54:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.08297673386557014
+2026-05-10 09:41:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4672,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.03231046672327842
+2026-05-01 18:13:00,DC01,192.168.79.131,DC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.07544012163518288
+2026-05-26 16:44:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.16724262567276926
+2026-05-06 17:12:00,DC01,192.168.79.131,Administrator,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03345357155319506
+2026-05-16 00:13:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.056284162157755
+2026-05-05 20:32:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.04739132224572673
+2026-05-23 22:36:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.13878148461982887
+2026-05-13 06:11:00,DC01,192.168.79.131,dave.it,192.168.79.133,5140,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.04059351186232152
+2026-05-10 04:19:00,DC01,192.168.79.131,DC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.08515169226009955
+2026-05-16 19:17:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.04935882602903319
+2026-05-30 06:28:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03193508900150832
+2026-05-11 00:32:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,Low,-0.021241534705982112
+2026-05-05 06:54:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07399976894032856
+2026-05-23 11:23:00,DC01,192.168.79.131,Administrator,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.042630745320728636
+2026-05-07 16:56:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,Low,-0.03864443403804485
+2026-05-27 09:57:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.05765190238940021
+2026-05-05 16:27:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.07541101227531788
+2026-05-26 05:30:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16311618216578866
+2026-05-10 02:06:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.05325310918036441
+2026-05-06 07:03:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.15732036825457618
+2026-05-27 05:22:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.14492507479602612
+2026-05-16 16:57:00,DC01,192.168.79.131,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.12557986715842373
+2026-05-13 22:58:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.1359824882360519
+2026-05-29 01:24:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07181775819701885
+2026-05-05 04:51:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.11555462222037038
+2026-05-11 10:17:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.07889697004150187
+2026-05-06 22:52:00,FINANCE-PC01,192.168.79.132,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.1406726632089158
+2026-05-10 05:24:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.059960661201332144
+2026-05-23 19:53:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.08485413482176418
+2026-05-16 16:32:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.1577090010069822
+2026-05-25 18:24:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.15171110337424848
+2026-05-26 07:50:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06455121053362278
+2026-05-01 16:30:00,DC01,192.168.79.131,Administrator,192.168.79.133,5140,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.016758061220369158
+2026-05-27 09:32:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07489355126330843
+2026-05-22 09:43:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.1341974528877214
+2026-05-29 09:16:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.06214912943955708
+2026-05-02 02:41:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.0985566252790655
+2026-05-25 11:06:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.14560620196763108
+2026-05-17 21:38:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.14763163517092748
+2026-05-07 02:29:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.1699512085754759
+2026-05-11 12:32:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.08689364839767777
+2026-05-28 19:27:00,DC01,192.168.79.131,dave.it,192.168.79.133,4672,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.008477049618289989
+2026-05-11 04:21:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,7045,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.04918177435023485
+2026-05-21 00:37:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.14566162547571582
+2026-05-05 09:24:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.11535680937803827
+2026-05-06 16:10:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.004334719823258837
+2026-05-19 05:49:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06531395239882642
+2026-05-13 04:47:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.13071643502003794
+2026-05-02 06:43:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.13532429794659612
+2026-05-13 15:56:00,DC01,192.168.79.131,Administrator,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03149833720050266
+2026-05-16 04:10:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,Low,-0.00026226767416559493
+2026-05-13 11:18:00,FINANCE-PC01,192.168.79.132,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.11862856946935058
+2026-05-06 10:15:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.14454994378802005
+2026-05-27 22:45:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,Low,-0.044239998055331964
+2026-05-23 19:53:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.08013604060492363
+2026-05-17 08:06:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.14419908443055107
+2026-05-01 10:22:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.10146282817814156
+2026-05-02 10:53:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,7045,remote_service_creation,High,T1543.003 - Windows Service,High,0.05752571518173755
+2026-05-07 10:11:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07392475525794129
+2026-05-24 22:44:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.12761293911217303
+2026-05-06 16:10:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.0030324305697299048
+2026-05-25 11:36:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.09396580530603338
+2026-05-08 14:47:00,DC01,192.168.79.131,Administrator,192.168.79.133,5140,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.0077445265329160184
+2026-05-03 19:41:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,4688,remote_service_creation,High,T1543.003 - Windows Service,High,0.06398203168679428
+2026-05-06 13:07:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.04975981638871518
+2026-05-04 04:13:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.0965474762719386
+2026-05-21 10:04:00,DC01,192.168.79.131,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.1388483415291486
+2026-05-14 18:06:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.08984318013857939
+2026-05-11 09:43:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,2.9220576210797766e-05
+2026-05-30 05:47:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.12924139574660048
+2026-05-05 23:07:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.0941038369909557
+2026-05-10 15:02:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.14726850660297497
+2026-05-11 06:22:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.1403196348775526
+2026-05-19 00:24:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4688,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.030454516073039506
+2026-05-14 02:29:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.11958064426124465
+2026-05-08 18:51:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.148799129341037
+2026-05-28 13:20:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.031626451698094415
+2026-05-10 00:25:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.133,5140,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.009945108639108025
+2026-05-07 01:27:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.09299417397615739
+2026-05-30 04:07:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.14810755874779963
+2026-05-26 10:22:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,Low,-0.03715414812013906
+2026-05-03 15:50:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.09662895860415255
+2026-05-06 04:40:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.05962516000252249
+2026-05-03 10:08:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.0936494121939081
+2026-05-11 23:10:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.025969943382599947
+2026-05-10 22:30:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.03106528934435171
+2026-05-28 09:29:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.06821836562087857
+2026-05-24 03:37:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.07466336901172244
+2026-05-26 16:34:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07320457218142407
+2026-05-08 04:04:00,DC01,192.168.79.131,Administrator,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.049226624194269486
+2026-05-25 01:13:00,DC01,192.168.79.131,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.13561915268484548
+2026-05-18 02:19:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.14572227986935954
+2026-05-28 01:08:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.13548366233887188
+2026-05-16 17:14:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.14167715308722445
+2026-05-19 06:10:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.10465850344475525
+2026-05-22 18:14:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.12794636979136792
+2026-05-20 07:06:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1544280747056066
+2026-05-17 16:42:00,DC01,192.168.79.131,dave.it,192.168.79.133,4672,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.04545050676581952
+2026-05-03 02:59:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.09024068943396579
+2026-05-25 13:37:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.1261689892445167
+2026-05-20 04:01:00,DC01,192.168.79.131,Administrator,192.168.79.133,7045,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.007032360654092851
+2026-05-29 21:32:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.14017487678022167
+2026-05-29 17:59:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03506566622130669
+2026-05-13 06:23:00,FINANCE-PC01,192.168.79.132,Administrator,192.168.79.133,7045,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.07182922616823884
+2026-05-18 10:29:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,domain_enumeration,High,T1087 - Account Discovery,High,0.006488176059605388
+2026-05-01 23:34:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.062284480904564066
+2026-05-17 22:55:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.10563461005513153
+2026-05-14 23:23:00,FINANCE-PC01,192.168.79.132,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.08131538180118392
+2026-05-04 01:34:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.08093891085738336
+2026-05-09 06:18:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.17490137012045415
+2026-05-28 22:00:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.1350787231002264
+2026-05-28 13:20:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03149833720050266
+2026-05-23 08:18:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.09304511752658373
+2026-05-24 18:06:00,DC01,192.168.79.131,dave.it,192.168.79.134,4688,domain_enumeration,High,T1087 - Account Discovery,High,0.0629283946338135
+2026-05-20 17:13:00,DC01,192.168.79.131,DC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.060665041998889
+2026-05-29 16:05:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.08043558350931101
+2026-05-31 05:46:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.09222150716961608
+2026-05-15 13:44:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,sam_dump_activity,High,T1003 - OS Credential Dumping,High,0.007796110320089755
+2026-05-19 01:25:00,FINANCE-PC01,192.168.79.132,Administrator,192.168.79.133,4672,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.012119774614657186
+2026-05-12 12:40:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,Low,-0.062354084992104264
+2026-05-28 14:39:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.04778757551012336
+2026-05-07 08:28:00,DC01,192.168.79.131,IT-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.08777074393735518
+2026-05-19 11:51:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1778840589110287
+2026-05-12 13:42:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.133,7045,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.05036543105713931
+2026-05-25 00:34:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.09086260423336401
+2026-05-08 06:03:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.13589005142207367
+2026-05-04 19:48:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.15398558567022375
+2026-05-04 10:16:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.09157579283736195
+2026-05-05 01:28:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.07875063684178252
+2026-05-30 06:21:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.17900181096174828
+2026-05-12 11:28:00,DC01,192.168.79.131,ANONYMOUS LOGON,192.168.79.134,4624,sam_dump_activity,High,T1003 - OS Credential Dumping,High,0.014663637794490758
+2026-05-26 22:51:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.10224187626046088
+2026-05-23 16:08:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,Low,-0.0469520636664601
+2026-05-15 02:53:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.14218700783309152
+2026-05-14 05:02:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.10958760027587289
+2026-05-20 22:42:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.05622043418031697
+2026-05-17 02:34:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.09815965736887444
+2026-05-27 17:02:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.13659446789138313
+2026-05-18 07:23:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.11646564131088266
+2026-05-27 00:54:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.09252895924624915
+2026-05-27 14:08:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.06197435851116617
+2026-05-06 05:15:00,DC01,192.168.79.131,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.14044825809405698
+2026-05-17 16:24:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.133,4672,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.026651577394507298
+2026-05-11 18:50:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.06701580853819666
+2026-05-13 13:08:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16950783932725205
+2026-05-11 05:55:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.11947070617158834
+2026-05-02 13:20:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.07083179842164855
+2026-05-29 16:03:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.09008138507368202
+2026-05-09 10:18:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.15096178151092832
+2026-05-23 01:41:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.11279325505414539
+2026-05-10 17:11:00,DC01,192.168.79.131,dave.it,192.168.79.133,4672,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.03831423679373691
+2026-05-13 18:37:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.061339552521181506
+2026-05-20 16:15:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,sam_dump_activity,High,T1003 - OS Credential Dumping,High,0.0026855518913260212
+2026-05-03 15:38:00,DC01,192.168.79.131,IT-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.08887391407705136
+2026-05-26 23:12:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.1298090214239373
+2026-05-28 06:01:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.041581225954202994
+2026-05-03 06:42:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.18174731917671183
+2026-05-25 16:10:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.09034607150769236
+2026-05-10 22:09:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.10687764330113891
+2026-05-04 04:18:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16991375228737193
+2026-05-05 03:25:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03902182544519994
+2026-05-20 04:35:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.12160212755109823
+2026-05-02 05:06:00,DC01,192.168.79.131,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.07723453488728405
+2026-05-24 14:18:00,DC01,192.168.79.131,IT-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.11783755703698906
+2026-05-11 04:29:00,DC01,192.168.79.131,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.1000293887121706
+2026-05-12 22:39:00,DC01,192.168.79.131,dave.it,192.168.79.133,7045,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.037673961479028795
+2026-05-20 08:17:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.08994045497269865
+2026-05-20 09:05:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.09395304733362864
+2026-05-28 16:45:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1710173657217015
+2026-05-14 05:17:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.04631279820511702
+2026-05-17 14:53:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.0750487338373158
+2026-05-15 20:28:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.007222762891695322
+2026-05-17 12:15:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.101322284355986
+2026-05-29 10:02:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.12972144325266283
+2026-05-04 00:13:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,domain_enumeration,High,T1087 - Account Discovery,High,0.01775568598432775
+2026-05-14 20:07:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.15119533540850272
+2026-05-10 18:33:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.12661201140474965
+2026-05-03 16:50:00,DC01,192.168.79.131,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.1110888630664777
+2026-05-27 00:56:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.09732039009996885
+2026-05-09 15:33:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.1537352311660794
+2026-05-14 05:17:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03139103195464987
+2026-05-26 12:40:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.025640152787602233
+2026-05-11 10:01:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.15375990499076797
+2026-05-05 10:23:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,Low,-0.055165507836807626
+2026-05-03 14:19:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,Low,-0.020822654977502575
+2026-05-05 10:31:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.11887546089714057
+2026-05-03 14:38:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.11432490488372121
+2026-05-09 05:26:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.1196884999125839
+2026-05-14 05:09:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.0635803982383415
+2026-05-05 02:51:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.0952781471888442
+2026-05-06 12:00:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.08912057590483025
+2026-05-26 20:58:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.11013519566080543
+2026-05-14 02:14:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.15735245137352627
+2026-05-09 08:04:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.17136197885426352
+2026-05-12 17:02:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.14421484671374285
+2026-05-13 10:32:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.14837585174257728
+2026-05-29 16:15:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,Low,-0.01437900571209294
+2026-05-26 07:54:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.16802817289316552
+2026-05-15 16:19:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.14888060922132096
+2026-05-06 15:21:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.17901269981232426
+2026-05-09 18:22:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06718109550962759
+2026-05-14 22:39:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.06411673531932849
+2026-05-18 21:00:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.16548781502794596
+2026-05-20 19:48:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.08277564714719998
+2026-05-05 11:13:00,DC01,192.168.79.131,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.12435606568168106
+2026-05-08 04:25:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16359454963108694
+2026-05-07 16:05:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.0784288496673673
+2026-05-04 18:53:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16350739872321424
+2026-05-28 02:52:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.15617613267776315
+2026-05-24 18:33:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.10498709463894551
+2026-05-23 09:09:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.11606426606358083
+2026-05-21 00:48:00,DC01,192.168.79.131,IT-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.07152693507131402
+2026-05-14 16:44:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.15195419431216461
+2026-05-30 22:45:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.1314018939630689
+2026-05-20 08:21:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.1594172571615462
+2026-05-21 15:41:00,DC01,192.168.79.131,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.08994115234393796
+2026-05-21 08:19:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,7045,remote_service_creation,High,T1543.003 - Windows Service,High,0.0665462715905718
+2026-05-28 10:25:00,DC01,192.168.79.131,dave.it,192.168.79.134,4672,domain_enumeration,High,T1087 - Account Discovery,High,0.06331778568711288
+2026-05-14 02:40:00,DC01,192.168.79.131,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.07503104943129302
+2026-05-14 05:39:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.08573106016837662
+2026-05-07 23:43:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.1551465745638334
+2026-05-07 14:36:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.15881790825900977
+2026-05-27 22:09:00,DC01,192.168.79.131,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.09238091349291733
+2026-05-08 00:00:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.04236621785059458
+2026-05-25 18:36:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.0951563939443586
+2026-05-18 10:29:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,domain_enumeration,High,T1087 - Account Discovery,High,0.003648325835652666
+2026-05-03 03:37:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.10514990526400692
+2026-05-25 21:09:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.00040791028806219654
+2026-05-11 11:14:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,sam_dump_activity,High,T1003 - OS Credential Dumping,High,0.009436688486447853
+2026-05-27 22:00:00,DC01,192.168.79.131,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.13303798167875536
+2026-05-26 21:09:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.11085681485357157
+2026-05-26 01:43:00,DC01,192.168.79.131,DC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.07517141254200632
+2026-05-01 19:50:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.08527271345802867
+2026-05-13 13:43:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4672,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.03830460934101043
+2026-05-20 05:12:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,5140,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.0025882013063905918
+2026-05-08 04:04:00,DC01,192.168.79.131,Administrator,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03379633860049436
+2026-05-16 13:40:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03187301000101184
+2026-05-10 18:14:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07686287153251925
+2026-05-09 15:17:00,DC01,192.168.79.131,dave.it,192.168.79.133,5140,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.025912326416899
+2026-05-21 11:24:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.12438013779847568
+2026-05-24 13:42:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.163223036935085
+2026-05-28 10:11:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.049183478716492424
+2026-05-25 13:16:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1766415764216182
+2026-05-06 15:38:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.1523929383816866
+2026-05-30 08:12:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.143189854165999
+2026-05-20 02:53:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.14145438608482291
+2026-05-04 23:10:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.08736791979434577
+2026-05-23 02:02:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.08405518046959415
+2026-05-09 15:16:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.08729361966327198
+2026-05-17 23:21:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,High,0.024919954422959578
+2026-05-08 15:08:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.18603326735943632
+2026-05-17 18:18:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.13986422873884224
+2026-05-25 17:52:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.037422693599000634
+2026-05-19 12:24:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.11466054414125998
+2026-05-16 05:10:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03139103195464987
+2026-05-23 23:28:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.11110207031358021
+2026-05-15 21:29:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.1336024583636392
+2026-05-02 11:39:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.11634873741195978
+2026-05-05 08:08:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.049226624194269486
+2026-05-02 23:11:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.02825107472786148
+2026-05-30 23:25:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.1532352276880124
+2026-05-18 15:03:00,DC01,192.168.79.131,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.14290454044877698
+2026-05-19 10:03:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.1782178723934299
+2026-05-10 01:52:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4688,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.04377637519175037
+2026-05-01 21:53:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.08838220506537708
+2026-05-05 03:33:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06152627712730219
+2026-05-09 05:03:00,FINANCE-PC01,192.168.79.132,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.17834762396065384
+2026-05-06 15:33:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.131846114696199
+2026-05-05 01:36:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.13682490489160887
+2026-05-04 15:59:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.0892559083170511
+2026-05-04 16:02:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07006996558751133
+2026-05-14 02:12:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1308285686029591
+2026-05-23 17:02:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.09627501190247467
+2026-05-28 05:45:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.14537104839997939
+2026-05-15 01:13:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.1283779362395832
+2026-05-30 01:28:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.14337037479323234
+2026-05-29 10:33:00,FINANCE-PC01,192.168.79.132,Administrator,192.168.79.133,4688,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.06562485829081821
+2026-05-17 10:05:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.10641857128799914
+2026-05-11 11:14:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,sam_dump_activity,High,T1003 - OS Credential Dumping,High,0.005536073835716637
+2026-05-18 03:22:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16159907248987443
+2026-05-16 08:45:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.0840894784731594
+2026-05-03 05:00:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.16275388424990983
+2026-05-16 05:10:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.049226624194269486
+2026-05-25 03:21:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.15406079872835188
+2026-05-06 14:39:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.031239892577863193
+2026-05-08 20:38:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,5140,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.030921634550756028
+2026-05-18 15:02:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.04771140074148983
+2026-05-05 16:51:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.1500564040893716
+2026-05-13 06:16:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.09894231084295835
+2026-05-27 02:54:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.11594315934976268
+2026-05-30 03:56:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.13638994375477498
+2026-05-02 23:41:00,DC01,192.168.79.131,dave.it,192.168.79.134,4672,domain_enumeration,High,T1087 - Account Discovery,High,0.06550155620217302
+2026-05-29 17:11:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1455359078083442
+2026-05-03 18:50:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.0913699097786852
+2026-05-05 03:25:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.037422693599000634
+2026-05-28 01:08:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.1576967364456986
+2026-05-03 11:32:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03187301000101184
+2026-05-06 05:51:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.05852796063176424
+2026-05-21 17:09:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.0705882573672374
+2026-05-10 16:55:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16260749747443842
+2026-05-12 02:07:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.12545615659683662
+2026-05-19 15:48:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.09087371095487384
+2026-05-02 08:48:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.08874221677844651
+2026-05-29 01:19:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.13844741689787066
+2026-05-02 23:41:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,domain_enumeration,High,T1087 - Account Discovery,Low,-0.016251144050331567
+2026-05-03 18:09:00,DC01,192.168.79.131,bob.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.04631279820511702
+2026-05-02 23:03:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4688,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.058656630118245845
+2026-05-19 20:15:00,DC01,192.168.79.131,DC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.09979956144788138
+2026-05-13 02:01:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.08376850029098892
+2026-05-14 11:17:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.15295180339803555
+2026-05-25 11:35:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.12177345311931242
+2026-05-09 03:30:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07280843777574386
+2026-05-06 07:46:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.09660492741576554
+2026-05-13 14:28:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.12189741048652858
+2026-05-09 01:13:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.0830385017649653
+2026-05-11 20:50:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,7045,remote_service_creation,High,T1543.003 - Windows Service,High,0.05971444107368262
+2026-05-16 14:54:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.09454699307211467
+2026-05-20 22:29:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.11611139548032795
+2026-05-02 03:06:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,High,0.02706085698578753
+2026-05-20 04:23:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07729269884728962
+2026-05-08 09:29:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.11996341464942145
+2026-05-04 20:08:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.09062605919136124
+2026-05-09 23:56:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.11875118890257963
+2026-05-02 23:54:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.07247803985250834
+2026-05-19 13:17:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.04012769274304384
+2026-05-20 20:36:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.12929897560136672
+2026-05-02 11:33:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.09168191249469027
+2026-05-19 20:50:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.040683486856350703
+2026-05-01 08:53:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.028798804448702198
+2026-05-05 11:03:00,DC01,192.168.79.131,IT-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.10138126268629388
+2026-05-27 14:59:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.10696411543243023
+2026-05-18 05:50:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4688,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.006996503265014553
+2026-05-03 21:40:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.030351592632789526
+2026-05-10 17:25:00,DC01,192.168.79.131,charlie.it,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.041581225954202994
+2026-05-27 21:03:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,7045,remote_service_creation,High,T1543.003 - Windows Service,High,0.05855581951365574
+2026-05-10 09:16:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4688,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.0350589420602887
+2026-05-09 15:29:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.13748363142215964
+2026-05-11 19:16:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07164584440812483
+2026-05-05 18:46:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.10611429870102784
+2026-05-23 13:57:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.0733989251769257
+2026-05-05 03:01:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.10045597453345712
+2026-05-29 03:17:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.050474450023168194
+2026-05-05 18:28:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.09542231254500244
+2026-05-16 01:53:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.14706603761982628
+2026-05-18 08:18:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.0591093572293343
+2026-05-26 06:35:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.10415506536969077
+2026-05-11 09:43:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.08086129150747823
+2026-05-30 09:52:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.07778232984949829
+2026-05-22 23:23:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.07599691428308897
+2026-05-17 14:28:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07214274239114016
+2026-05-29 22:45:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.12388648099887467
+2026-05-15 15:14:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.16079348123781212
+2026-05-07 18:25:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.08042649018704462
+2026-05-27 13:55:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.10891373291856588
+2026-05-27 08:19:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.11911274354632917
+2026-05-15 22:36:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.13785034430702753
+2026-05-30 20:42:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.13447917223059735
+2026-05-22 16:47:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.16014133446615686
+2026-05-22 17:29:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06880636715972421
+2026-05-24 03:53:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.06513531533026506
+2026-05-28 10:22:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1569244184382485
+2026-05-30 02:29:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.054269753909427454
+2026-05-17 22:55:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4672,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.01586572141653919
+2026-05-28 10:25:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,domain_enumeration,High,T1087 - Account Discovery,High,0.009378866885004333
+2026-05-07 03:38:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.13996150833245713
+2026-05-19 23:25:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.039837128735974225
+2026-05-16 00:16:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.12954693311132215
+2026-05-24 21:01:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.026135448602086164
+2026-05-21 21:04:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.044570344500217574
+2026-05-25 17:52:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.03149833720050266
+2026-05-27 00:49:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.07576738342255618
+2026-05-22 12:32:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16302123543364905
+2026-05-03 22:06:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.12112737595808398
+2026-05-11 02:44:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.08921483138618747
+2026-05-15 01:10:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.016061086846747452
+2026-05-14 18:46:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.04114370470158979
+2026-05-04 12:04:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.14576002493750168
+2026-05-26 19:13:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.06424694503223849
+2026-05-03 13:24:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07368236738598821
+2026-05-27 07:30:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.05467044890969697
+2026-05-30 22:25:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.13507725416268168
+2026-05-13 02:34:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.1013594808296856
+2026-05-06 23:35:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,Low,-0.03765959365805138
+2026-05-31 01:13:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.08702745240225551
+2026-05-27 16:48:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.025196357118042467
+2026-05-31 02:54:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,5140,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.03085516946463307
+2026-05-26 12:40:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.07593022577688147
+2026-05-16 14:15:00,IT-PC01,192.168.79.133,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.15052156263043875
+2026-05-27 05:17:00,DC01,192.168.79.131,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.12544259079889425
+2026-05-04 11:08:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.14768717214291766
+2026-05-17 09:27:00,DC01,192.168.79.131,dave.it,192.168.79.133,4672,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.022403325559371412
+2026-05-01 22:24:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.1284164966341343
+2026-05-23 19:53:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.07411434751242907
+2026-05-11 23:55:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,High,0.013586361401672908
+2026-05-08 08:29:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,sam_dump_activity,High,T1003 - OS Credential Dumping,Low,-0.006790110537161942
+2026-05-14 08:50:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.018791442949284587
+2026-05-29 13:06:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.1723451930822228
+2026-05-26 07:24:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.08091662538998468
+2026-05-10 23:21:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.14204677409731964
+2026-05-15 11:25:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_client_activity,Low,Benign Activity,Low,-0.15167790548526833
+2026-05-15 19:50:00,DC01,192.168.79.131,IT-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.07876178077129026
+2026-05-19 13:50:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.06775132649749749
+2026-05-21 02:40:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.15017864747121462
+2026-05-03 02:34:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.0985566252790655
+2026-05-20 01:38:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.10394343054837629
+2026-05-09 06:47:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.14666086192792127
+2026-05-28 10:25:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,domain_enumeration,High,T1087 - Account Discovery,High,0.020633663779244582
+2026-05-30 05:32:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.024650407494861803
+2026-05-02 07:18:00,IT-PC01,192.168.79.133,charlie.it,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.11574307011651341
+2026-05-02 10:53:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,7045,remote_service_creation,High,T1543.003 - Windows Service,High,0.055602890363474544
+2026-05-28 21:31:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.13500265200652306
+2026-05-21 07:50:00,DC01,192.168.79.131,charlie.it,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.0764315510147503
+2026-05-17 11:52:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.17392893520426012
+2026-05-26 10:19:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,5140,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.07987677377787783
+2026-05-10 02:53:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.05779875509655419
+2026-05-13 14:15:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.07214274239114016
+2026-05-07 02:38:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.047774796091119676
+2026-05-27 03:37:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,7045,remote_service_creation,High,T1543.003 - Windows Service,High,0.05872569045383558
+2026-05-14 00:30:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.09271214430403996
+2026-05-20 13:08:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_client_activity,Low,Benign Activity,Low,-0.1388003860883421
+2026-05-27 23:18:00,DC01,192.168.79.131,alice.finance,192.168.79.132,4688,normal_client_activity,Low,Benign Activity,Low,-0.026191886147993504
+2026-05-03 04:54:00,DC01,192.168.79.131,dave.it,192.168.79.133,4672,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.023434165561097897
+2026-05-21 14:16:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.10543945662690546
+2026-05-10 05:34:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.03193508900150832
+2026-05-23 01:09:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.053758976019537164
+2026-05-22 16:55:00,DC01,192.168.79.131,DC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.12655613079792988
+2026-05-13 15:24:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.0880597446107807
+2026-05-11 09:43:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.015317253871674485
+2026-05-22 06:05:00,DC01,192.168.79.131,alice.finance,192.168.79.134,4625,credential_spraying,High,T1110.003 - Password Spraying,High,0.049226624194269486
+2026-05-29 02:48:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.08214137767148977
+2026-05-30 05:04:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16254907178761668
+2026-05-11 00:35:00,FINANCE-PC01,192.168.79.132,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,Low,-0.005572438536138757
+2026-05-16 16:09:00,DC01,192.168.79.131,bob.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.05826678971987942
+2026-05-27 16:48:00,DC01,192.168.79.131,dave.it,192.168.79.134,4625,targeted_brute_force,High,T1110.001 - Password Guessing,High,0.04922226880597891
+2026-05-30 21:35:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.07861587142131321
+2026-05-08 08:29:00,DC01,192.168.79.131,dave.it,192.168.79.134,4624,sam_dump_activity,High,T1003 - OS Credential Dumping,High,0.003648325835652666
+2026-05-28 17:18:00,DC01,192.168.79.131,IT-PC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.08716878219424162
+2026-05-12 17:42:00,DC01,192.168.79.131,alice.finance,192.168.79.133,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.0421354731808018
+2026-05-05 10:48:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.0723291870987458
+2026-05-24 04:34:00,IT-PC01,192.168.79.133,dave.it,192.168.79.133,4624,benign_admin_maintenance,Low,Benign Administrative Maintenance,Low,-0.12604055613517273
+2026-05-21 19:11:00,IT-PC01,192.168.79.133,bob.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.12597556593624282
+2026-05-06 20:06:00,DC01,192.168.79.131,charlie.it,192.168.79.133,4688,normal_client_activity,Low,Benign Activity,Low,-0.02387532445547169
+2026-05-14 02:41:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,odd_hour_normal_login,Low,Benign After-Hours Activity,Low,-0.13961316964907022
+2026-05-06 19:49:00,FINANCE-PC01,192.168.79.132,Administrator,192.168.79.133,4624,benign_remote_admin,Low,Benign Administrative Activity,Low,-0.11142040518346974
+2026-05-16 23:52:00,IT-PC01,192.168.79.133,dave.it,192.168.79.134,4624,lateral_movement,High,T1021.002 - SMB/Windows Admin Shares,High,0.026628622707691285
+2026-05-07 20:29:00,FINANCE-PC01,192.168.79.132,bob.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.09232517841335819
+2026-05-12 13:17:00,FINANCE-PC01,192.168.79.132,alice.finance,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.16616167443641294
+2026-05-30 20:14:00,FINANCE-PC01,192.168.79.132,charlie.it,192.168.79.132,4624,normal_logon,Low,Benign Activity,Low,-0.1300930838330469
+2026-05-02 02:28:00,IT-PC01,192.168.79.133,alice.finance,192.168.79.133,4624,normal_logon,Low,Benign Activity,Low,-0.11946918703542009
+2026-05-19 13:20:00,DC01,192.168.79.131,DC01$,192.168.79.133,4624,normal_machine_auth,Low,Benign Activity,Low,-0.11609684502843737
+2026-05-05 05:16:00,DC01,192.168.79.131,FINANCE-PC01$,192.168.79.132,4624,normal_machine_auth,Low,Benign Activity,Low,-0.11812922673509407
+2026-05-16 09:06:00,DC01,192.168.79.131,bob.finance,192.168.79.132,4625,single_failed_login,Low,Benign Authentication Noise,Low,-0.08236384108473072

@@ -1,0 +1,9 @@
+Dataset B Isolation Forest Evaluation Results:
+Contamination: 0.02
+TN=960, FP=20, FN=10, TP=235
+Accuracy: 0.9755
+Precision High: 0.9216
+Recall High: 0.9592
+F1 High: 0.9400
+ROC-AUC: 0.9967
+Average Precision: 0.9864
