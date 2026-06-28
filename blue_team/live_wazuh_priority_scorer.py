@@ -30,7 +30,7 @@ OPENSEARCH_USER = "admin"
 OPENSEARCH_PASSWORD = "admin"
 
 SOURCE_INDEX = "wazuh-alerts-*"
-TARGET_INDEX = "scientificpharmacy-live-priority-events"
+TARGET_INDEX = "live-priority-events"
 
 POLL_SECONDS = 20
 LOOKBACK_WINDOW = "now-10m"
