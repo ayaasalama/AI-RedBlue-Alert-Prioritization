@@ -35,8 +35,9 @@ The system consists of three environments:
 ---
 
 ## Repository Structure
-AI-RedBlue-Alert-Prioritization/
 
+```
+AI-RedBlue-Alert-Prioritization/
 │
 ├── red_team/
 │   └── llm_planner.py                   # LLM-based attack scenario planner (Ollama/Mistral)
@@ -54,7 +55,7 @@ AI-RedBlue-Alert-Prioritization/
 │   └── isolation_forest_training.ipynb  # Full ML training notebook
 │
 ├── dataset/
-│   └── dataset_b_sample.csv             # Wazuh-aligned lab-generated dataset
+│   └── dataset_B.csv                    # Wazuh-aligned lab-generated dataset
 │
 ├── diagrams/
 │   └── logical_architecture.png         # Logical system architecture
@@ -64,6 +65,7 @@ AI-RedBlue-Alert-Prioritization/
 │
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
